@@ -2,7 +2,7 @@ import { Router } from 'express';
 import { authMiddleware, roleMiddleware } from '../middleware/authMiddleware';
 import { aggregate } from '../models/Booking';
 import { find } from '../models/Farm';
-import { aggregate as _aggregate } from '../models/user';
+import { aggregate as _aggregate } from '../models/User';
 import Review from '../models/Review';
 import { aggregate as __aggregate } from '../models/Payment';
 
